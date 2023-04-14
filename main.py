@@ -8,7 +8,7 @@ from skimage import filters, color
 
 from skimage.segmentation import active_contour
 
-class AmbrosioTortorelliMinimizer():
+class Siranio image processor():
 
     def __init__(self, img, alpha=1000, beta=0.01, epsilon=0.01, gamma=0.1):
 
@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
     img = np.array(Image.open(sys.argv[1]))
 
-    solver = AmbrosioTortorelliMinimizer(img)
+    solver = Siranioimageprocessor(img)
 
     f, v = solver.minimize(iterations=1)
 
