@@ -23,4 +23,4 @@ solve_image(self): applies an active contour algorithm to the current image (sel
 
 minimize(self, iterations=1): iteratively applies solve_edges and solve_image a number of iterations times (default is 1) and returns the final image (f) and the edges (edges).
 
-The main block of the code reads an image file from the command line, creates an instance of AmbrosioTortorelliMinimizer with the image, and calls the minimize method to segment the image. The resulting image and edges are shown using a show_image function that is not included in the code snippet. Finally, the script waits for a key press before exiting.
+The main block of the code reads an image file from the command line, creates an instance of Siranio image processor with the image, and calls the minimize method to segment the image. The resulting image and edges are shown using a show_image function that is not included in the code snippet. Finally, the script waits for a key press before exiting.
